@@ -11,7 +11,7 @@ def is_file_empty(file_path):
 
 def remove_empty_labels_and_images(together_dir):
     # Проходим по всем папкам в together
-    for root, dirs, files in tqdm(os.walk(together_dir), desc="Обработка папок"):
+    for root, dirs, _ in tqdm(os.walk(together_dir), desc="Обработка папок"):
         # Проверяем, есть ли папка labels в текущей директории
         if 'labels' in dirs:
             labels_dir = os.path.join(root, 'labels')

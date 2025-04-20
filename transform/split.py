@@ -1,6 +1,7 @@
 import os
 import shutil
 
+
 def split_basename(basename):
     # Пытаемся разделить по последнему подчеркиванию
     if '_' in basename:

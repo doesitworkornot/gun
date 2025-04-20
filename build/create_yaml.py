@@ -46,6 +46,6 @@ def create_yolo_yaml(dataset_dir, validation_file, output_yaml):
 if __name__ == "__main__":
     create_yolo_yaml(
         dataset_dir='dataset',
-        validation_file='files/to_val.txt',
+        validation_file='to_val.txt',
         output_yaml='dataset_config.yaml'
     )

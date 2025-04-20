@@ -1,7 +1,7 @@
 import cv2
 import os
 import argparse
-import numpy as np
+
 
 ALLOWED_SUBFOLDERS = [
     'div',
